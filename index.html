@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h4 style="text-decoration: none; font-size: 30px;">RAMANAND MADANE</h4>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><button onclick="openPopup()"><a href="#Home">Home</a></button></li>
+                    <li><button onclick="openPopup()"><a href="#About">About</a></button></li>
+                    <li><button onclick="openPopup()"><a href="#Projects">Projects</a></button></li>
+                    <li><button onclick="openPopup()"><a href="#Resume">Resume</a></button></li>
+                    <li><button onclick="openPopup()"><a href="#Contact">Contact</a></button></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="Home">
+            <div class="leftsection">
+                <div class="overlay">
+                    <h2>Hello, I'm </h2>
+                    <h1>Ram Madane.</h1>
+                    <h3><i>I'm Software Engineer & Fullstack Developer</i></h3>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="second-section" id="About">
+            <div class="rightsection">
+                <img src="image/profile.jpg" alt="Profile pic of Ram Madane" class="profile-pic">
+            </div>
+            <div class="about">
+                <div class="items">
+                    <h1 style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 100px; padding: 10px;">
+                        About Me</h1><br>
+                    <h4>Name:</h4>
+                    <p>Ramanand Sandipan Madane</p><br>
+                    <h4>Education:</h4>
+                    <p>Bachelor Of Engineering</p><br>
+                    <h4>Profile:</h4>
+                    <p>Software developer / Web Developer</p><br>
+                    <h4>Experince:</h4>
+                    <p>Fresher</p><br>
+                    <h4>Address:</h4>
+                    <p>Pune, Maharashtra</p>
+                </div>
+                <div class="items">
+                    <h2>Summery</h2>
+                    <p>Diligent and hardworking professional with a passion for innovation and a strong problem solving
+                        aptitude. A quick learner with a demonstrated proficiency in technical skills, committed to
+                        staying at the forefront of industry advancements. Efficiently tackling challenges and
+                        contributing to solutions that drive organizational success.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div>
+                <h1 style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 60px; padding: 10px;">
+                    Education</h1>
+                <br>
+                <div class="edu">
+                    <h2>2020-24</h2>
+                    <p>B.E in Computer Engineering | Trinity College of Engineering Research, Pune. <br>CGPA: 7.10 |
+                        SPPU |</p>
+                    <br>
+                </div>
+                <div class="edu">
+                    <h2>2019-20</h2>
+                    <p>HSC | Dr. B. J. Date Prashala And Junior College, Natepute <br>Percentage: 67.23% | MSBSHSE |</p>
+                </div><br>
+                <div class="edu">
+                    <h2>2017-18</h2>
+                    <p>SSC | Dahigaon Highschool, Dahigaon <br>Percentage: 74.60% | MSBSHSE |</p>
+                </div>
+            </div>
+            <div>
+                <h1 style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 60px; padding: 10px;">Skills
+                </h1>
+                <h4>Domain:</h4>
+                <p>Web Developer & Java Developer</p><br>
+                <h4>Lanuages:</h4>
+                <p>Java, SQL, CPP, C, HTML, CSS, JavaScript</p><br>
+                <h4>Coding Tools:</h4>
+                <p>VS Code, Eclips & Notepad</p><br>
+                <h4>Others Skills:</h4>
+                <p>React.JS & Web Development</p><br>
+                <h4>Languages:</h4>
+                <p>English, Hindi, Marathi</p><br>
+                <h4>Interest:</h4>
+                <p>Traveling, Exploring new things & places, & Wathcing Movies</p>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <h1
+                style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 100px; padding: 10px; align-self: center; text-align: center;">
+                PROJECTS</h1>
+            <div class="project">
+                <div class="first-project">
+                    <img src="image/covid-19.png" alt="covid-19 image" width="507px" height="310px">
+                    <br><br>
+                    <h2>I. FACE MASK DETECTION USING ARTIFICIAL INTELLIGENCE</h2>
+                    <br>
+                    <p>Developed an AI-powered system capable of detecting whether individuals are wearing face masks in
+                        real-time using computer vision techniques. <br>
+                        The system uses a deep learning model, a convolutional neural network (CNN), trained on labeled
+                        datasets of images with and without masks. <br>
+                        OpenCV was utilized for image processing and webcam integration, while TensorFlow/Keras was
+                        employed
+                        for model training and inference.
+                    </p>
+                </div>
+
+                <div class="second-project">
+                    <img src="image/rental-house.jpg" alt="rental-house image" width="507px" height="310px">
+                    <br><br>
+                    <h2>II. RENTAL HOUSE MANAGEMENT SYSTEM [WEBSITE]</h2>
+                    <br>
+                    <p>Developed a web-based Rental House Management System to streamline the process of renting and
+                        managing properties. <br>
+                        The system allows property owners to list available rentals, while potential tenants can search,
+                        view, and book properties based on their preferences. <br>
+                        Features include property listing management, tenant profiles, online bookings, and payment
+                        tracking.
+                    </p>
+                </div>
+            </div>
+            <div class="third-project">
+                <img src="image/portfolio.png" alt="rental-house image" width="507px" height="310px">
+                <br><br>
+                <h2>Personal Portfolio Website- Ram Madane</h2>
+                <br>
+                <p>I developed a responsive and interactive personal portfolio website using HTML, CSS, and JavaScript.
+                    The site showcases my skills, projects, education, and experience in a clean, modern layout,
+                    designed to make a strong impression on potential employers or clients.
+                </p>
+            </div>
+        </section>
+
+        <section id="Resume">
+            <h1
+                style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 100px; padding: 10px; align-self: center; text-align: center;">
+                Resume</h1>
+            <div class="resume">
+                <div class="overlay2">
+                    <p>Creative and detail-oriented front-end developer with a solid foundation in HTML, CSS, and
+                        JavaScript. Skilled in building responsive, visually appealing websites with smooth user
+                        experiences. Passionate about clean code, modern design, and continuous learning in web
+                        development.
+                    </p>
+                </div>
+                <div class="bt">
+                    <div class="resume-button">
+                        <button class="download-button"><b>DOWNLOAD RESUME</b></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="forth-section" id="Contact">
+            <h1
+                style="font-style: italic; text-shadow: 10px 10px 5px gray; font-size: 100px; padding: 10px; align-self: center; text-align: center;">
+                Contact</h1>
+            <div class="contact" onclick="popup()">
+                <div class="icons">
+                    <a href="mailto:ramanandmadane2001@gmail.com" target="_blank">
+                        <img src="image/gmail.png" alt="gmail" height="65px">
+                    </a>
+                    <span class="email">ramanandmadane2001gmial.com</span>
+                </div>
+                <div class="icons">
+                    <a href="tel:+919563130303">
+                        <img src="image/phone.png" alt="phone" height="55px">
+                    </a>
+                    <span class="i-names">+91 95631 30303</span>
+                </div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/ramanand-madane-37a555232/">
+                        <img src="image/linkedin.png" alt="linkedin" height="60px">
+                    </a>
+                    <span class="i-names">LinkdIn</span>
+                </div>
+                <div class="icons">
+                    <a href="https://www.instagram.com/_ram_01.02/">
+                        <img src="image/insta.png" alt="insta" height="60px">
+                    </a>
+                    <span class="i-names">_ram_01.02</span>
+                </div>
+                <div class="icons">
+                    <a
+                        href="https://www.google.com/maps/place/1,+Dhankawadi+Rd,+Chitanya+Nagar,+Kala+Nagar,+Dhankawadi,+Pune,+Maharashtra+411043/@18.4607703,73.8566142,19z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eab89d8b3157:0x4c92b70807204899!8m2!3d18.4607703!4d73.8572579!16s%2Fg%2F11h28wpkd2?authuser=0&entry=ttu&g_ep=EgoyMDI1MDMyMy4wIKXMDSoASAFQAw%3D%3D">
+                        <img src="image/address.png" alt="address" height="60px"></a>
+                    <span class="i-names">Pune, Maharashtra</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
